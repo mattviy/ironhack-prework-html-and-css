@@ -158,3 +158,23 @@ p {
     font-weight: bold;
     text-decoration: none;
 }
+/* classes used in section 2*/
+.instal-npm-bckgrnd {
+    background-image: url("images/forklift.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.instal-npm {
+    width: 25%;
+    height: 300px;
+    margin: 0 auto;
+    padding: 5% 30% 10% 0;   
+}
+.instal-npm p {
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 30px;
+    color: #f4f4f4;
+    padding-bottom: 20px;
+}
