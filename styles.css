@@ -178,3 +178,46 @@ p {
     color: #f4f4f4;
     padding-bottom: 20px;
 }
+/* classes used in section 2*/
+.sec-3 {
+    display: inline-flex;
+    margin: 0 auto;
+}
+.sec-3 h2 {
+    color: rgb(83, 88, 98);
+    text-align: center;
+}
+.sec-3 h3 {
+    color: rgb(135, 145, 156);
+    text-align: center;
+}
+.sec-3 p {
+    color: rgb(135, 145, 156);
+    text-align: center;
+}
+.sec-3 a {
+    color: rgb(221, 124, 124);
+    text-align: center;
+    text-decoration: none;
+}
+.sec-3-head {
+    margin: 0 auto;
+}
+.container {
+    padding-left: 20%;
+    padding-top: 20px; 
+}
+.col {
+    float: left; 
+  }
+.col-3 {
+    width: 20%;
+    text-align: center; 
+}
+.col-middle {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.clearfix {
+    clear: both;
+}
