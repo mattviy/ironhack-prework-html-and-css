@@ -4,8 +4,9 @@ body {
 nav {
     background-color: #C12127;
     color: rgba(255,255,255,0.8);
-    padding-top: 15px;
-    height: 100px;
+    padding-top: 10px;
+    height: 30px;
+    font-size: 14px;
 }
 nav a {
     color: rgba(255,255,255,0.8);
@@ -33,6 +34,9 @@ p {
     color: #ffffff;
 }
 /* classes used in header*/
+.heart {
+    padding: 0 10px;
+}
 .top-left { 
       display: inline-flex;
 }
@@ -47,7 +51,41 @@ p {
     margin: 0 10px;
 }
 .search-bar {
-    background-color:rgb(31, 82, 111);
+    background-color: rgb(36, 92, 124);
+    display: inline-flex;
+    float: left;
+    height: 40px;
+}
+.login {
+    margin: auto;
+    padding: 10px 5px;
+    height: 40px;
+    float: left;
+    color: #ffffff;
+}
+.search-bar img {
+    height: 40px;
+    margin: auto;
+    padding: 5px 10px 5px 10px;
+}
+.login a {
+    float: left;
+    width: auto;
+    color: #ffffff;
+    text-decoration: none;
+}
+.login p {
+    float: left;
+    margin: auto;
+    padding: 0px 5px;
+}
+.search-box {
+    background-color: rgb(34, 81, 109);
+    height: 25px;
+    width: 1300px;
+    padding: 5px 5px;
+    margin: 5px 0;
+    border: 2px solid rgb(43, 98, 127);
 }
 .build-amazing-things-bkgrnd {
     background-image: url("images/city-scape.svg");
